@@ -2854,7 +2854,7 @@ MonoBehaviour:
   desktopMove: {fileID: 0}
   xrMove: {fileID: 4206109053866980269}
   BASE_SPEED_XR: 3
-  BASE_SPEED_DESKTOP: 15
+  BASE_SPEED_DESKTOP: 150
   wasInteracting: 0
 --- !u!114 &2087409670489857113
 MonoBehaviour:
