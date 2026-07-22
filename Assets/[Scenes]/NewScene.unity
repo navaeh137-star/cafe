@@ -736,6 +736,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[Settings]'
       objectReference: {fileID: 0}
+    - target: {fileID: 7730144249755899920, guid: 972608fc3e8ff8f46b761aa3f85bede3,
+        type: 3}
+      propertyPath: far clip plane
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
