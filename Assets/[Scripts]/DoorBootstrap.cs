@@ -127,7 +127,8 @@ public class DoorBootstrap : MonoBehaviour
 
         if (preferRightController && grabbedInteractor is XRBaseControllerInteractor controllerInteractor)
         {
-            if (controllerInteractor.controllerNode == XRNode.RightHand)
+            var xrController = controllerInteractor.GetComponent<XRController>();
+            if (xrController != null && xrController.controllerNode == XRNode.RightHand)
                 return;
         }
     }
