@@ -59,7 +59,11 @@ public class SitScript : MonoBehaviour
     {
         isSeated = true;
 
-        playerRoot.position = sitTarget.position;
+        Vector3 cameraOffset = xrOrigin.Camera.transform.position - playerRoot.position;
+        cameraOffset.y = 0;
+
+        playerRoot.position = sitTarget.position - cameraOffset;
+
         playerRoot.rotation = sitTarget.rotation;
 
         if (xrOrigin != null)
