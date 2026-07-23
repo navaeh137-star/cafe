@@ -1093,6 +1093,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "sit",
+                    "type": "Button",
+                    "id": "f7f6d0e9-46b3-4c43-838e-8f15bd3815af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1137,6 +1146,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f04b801-6965-489d-9f06-a976567b09d1",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "sit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
