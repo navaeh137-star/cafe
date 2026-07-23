@@ -2564,7 +2564,7 @@ PrefabInstance:
     - target: {fileID: 2777180684130930147, guid: bdbf811528419b540805cf14dec86df5,
         type: 3}
       propertyPath: m_Name
-      value: SM_CartoonAnimal_Cat
+      value: cat
       objectReference: {fileID: 0}
     - target: {fileID: 9091042374412862250, guid: bdbf811528419b540805cf14dec86df5,
         type: 3}
