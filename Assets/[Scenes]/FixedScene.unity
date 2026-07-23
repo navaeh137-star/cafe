@@ -2371,7 +2371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Target: {fileID: 2039305891}
+  Target: {fileID: 306879613}
 --- !u!1001 &255333428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3992,6 +3992,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &306879613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3892565165923481655, guid: 972608fc3e8ff8f46b761aa3f85bede3,
+    type: 3}
+  m_PrefabInstance: {fileID: 306879604}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &310949136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10780,7 +10786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Target: {fileID: 2039305891}
+  Target: {fileID: 306879613}
 --- !u!1001 &933722171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12341,7 +12347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Target: {fileID: 2039305891}
+  Target: {fileID: 306879613}
 --- !u!1001 &1026169826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13173,7 +13179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Target: {fileID: 2039305891}
+  Target: {fileID: 306879613}
 --- !u!1001 &1192774110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15254,7 +15260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Target: {fileID: 2039305891}
+  Target: {fileID: 306879613}
 --- !u!1001 &1461102919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21636,12 +21642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &2039305891 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7980954664705550808, guid: 972608fc3e8ff8f46b761aa3f85bede3,
-    type: 3}
-  m_PrefabInstance: {fileID: 306879604}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2052249928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21974,7 +21974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Target: {fileID: 2039305891}
+  Target: {fileID: 306879613}
 --- !u!1 &2071656111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2777180684130930147, guid: bdbf811528419b540805cf14dec86df5,
@@ -22043,7 +22043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Target: {fileID: 2039305891}
+  Target: {fileID: 306879613}
 --- !u!1001 &2082445831
 PrefabInstance:
   m_ObjectHideFlags: 0
