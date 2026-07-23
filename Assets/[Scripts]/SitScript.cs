@@ -64,17 +64,17 @@ public class SitScript : MonoBehaviour
             xrOrigin.CameraYOffset = sittingYOffset;
         }
 
-        playerRoot.rotation = sitTarget.rotation * Quaternion.Euler(0, 180f, 0);
+        float desiredYaw = sitTarget.eulerAngles.y;
+        float currentCameraYaw = xrOrigin.Camera.transform.eulerAngles.y;
+
+        float yawDelta = desiredYaw - currentCameraYaw;
+
+        playerRoot.RotateAround(xrOrigin.Camera.transform.position, Vector3.up, yawDelta);
 
         Vector3 cameraOffset = xrOrigin.Camera.transform.position - playerRoot.position;
-        cameraOffset.y = 0; 
+        cameraOffset.y = 0;
 
         playerRoot.position = sitTarget.position - cameraOffset;
-
-        if (continuousMoveProvider != null)
-        {
-            continuousMoveProvider.enabled = false;
-        }
     }
 
     public void StandUp()
