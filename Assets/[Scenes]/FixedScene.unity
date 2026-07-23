@@ -3411,6 +3411,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[Settings] (1)'
       objectReference: {fileID: 0}
+    - target: {fileID: 4021377193475288678, guid: 972608fc3e8ff8f46b761aa3f85bede3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7730144249755899920, guid: 972608fc3e8ff8f46b761aa3f85bede3,
         type: 3}
       propertyPath: far clip plane
@@ -5828,7 +5833,7 @@ PrefabInstance:
     - target: {fileID: 1007918531111547754, guid: 2ab03d2e585950a48bc6f39cac43bfd4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -379.7
+      value: -382.57
       objectReference: {fileID: 0}
     - target: {fileID: 1007918531111547754, guid: 2ab03d2e585950a48bc6f39cac43bfd4,
         type: 3}
@@ -5838,7 +5843,7 @@ PrefabInstance:
     - target: {fileID: 1007918531111547754, guid: 2ab03d2e585950a48bc6f39cac43bfd4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -327.3
+      value: -317.54
       objectReference: {fileID: 0}
     - target: {fileID: 1007918531111547754, guid: 2ab03d2e585950a48bc6f39cac43bfd4,
         type: 3}
